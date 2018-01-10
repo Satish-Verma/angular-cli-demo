@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="header">
+  <div class="icon-header">
+      <a><span>Digital India</span></a>
+  </div>
+  <div class="title">Welcome to NIC</div>
+</div>
+<div class="main-body" style="text-align:center;overflow: auto;">
+  <div *ngFor="let user of models" class="user">
+      <div><h3>{{user.userId}} {{user.title}}</h3></div>
+      <div>{{user.body}}</div>
+  </div>
+</div>
+<div class="footer">
+    <div class="icon-header"><a><span>Back</span></a></div>
+    <div class="title">Developed By NIC</div>
+</div>
+
+
